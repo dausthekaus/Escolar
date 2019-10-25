@@ -1,0 +1,34 @@
+/* General tags */
+body {background:#ccc url(images/bodybg.gif) repeat;font:88% verdana,tahoma,sans-serif;color:#555}
+* {margin:0;padding:0}
+.fleft {float:left}
+.fright {float:right}
+.fcenter p {float:none;text-align:center; color: white;}
+.fclear {clear:both}
+.inner_copy {border:0;color:#f00;float:right;width:50% !important;margin:-100% 0 0 0;overflow:hidden;line-height:0;padding:0;font-size:11px}
+a {background:inherit;color:#286ea0;font-weight:bold;text-decoration:none}
+a:hover {text-decoration:underline}
+p {margin:0 0 15px 0; color: black}
+ul, ol {margin:0 0 16px 15px;padding-left:5px}
+ul ul, ol ol {margin:3px 0 0 15px}
+img {float:left;margin:0 10px 5px 0}
+/* Headers */
+h1 {color:#555;font-size:3.6em;letter-spacing:-3px;margin:0;text-align:right}
+h2 {font-size:1.6em;font-weight:normal;letter-spacing:-1px;margin:5px 0 10px}
+h3 {color:black; font-size:  0.7em; letter-spacing: -1px; }
+/* IDs */
+
+
+#title {margin:20px auto -9px;width:900px}
+#container {background:#fff url(images/Background1.jpg) bottom left no-repeat;border:20px solid #555;color:#555;margin:0 auto 15px;padding:10px;width:900px;line-height:1.3em}
+#sidebar {float:left;padding-left:30px;width:110px; }
+#sidebar p {margin:10px 0 5px 10px;text-align:left;font-size:0.8em;}
+#sidebar p a {font-weight:400}
+#main {float:right;width:600px; background-color: silver ; border-radius: 20px; padding: 20px; }
+#footer {clear:both;color:#aaa;padding:15px 0 0 0}
+/* Menu */
+.menu {background: #2D2222; border:1px solid #fff;color:#1F98EF;display:block;font-size:1.1em;font-weight:bold;padding:4px 2px 4px 10px;width:110px; border-radius: 5px; padding:10px;  }
+.menu:hover {background:#f8f8f8;border:1px solid #ccc;color:#333;text-decoration:none}
+/* Various classes */
+.credits {color:#777;font-size:0.9em;margin-bottom:0}
+.credits a {color:#777}
